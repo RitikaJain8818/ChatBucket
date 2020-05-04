@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "description": "Realtime chat app with rooms",
   "main": "server.js",
-  "homepage" : "https://ritikajain8818.github.io/ChatBucket/",
+  "homepage": "https://ritikajain8818.github.io/ChatBucket",
   "scripts": {
     "start": "node server",
     "dev": "nodemon server",
-    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Brad Traversy",
