@@ -1,11 +1,14 @@
 {
-  "name": "chatcord",
+  "name": "chatbucket",
   "version": "1.0.0",
   "description": "Realtime chat app with rooms",
   "main": "server.js",
+  "homepage" : "https://ritikajain8818.github.io/ChatBucket/",
   "scripts": {
     "start": "node server",
-    "dev": "nodemon server"
+    "dev": "nodemon server",
+    "deploy": "gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Brad Traversy",
   "license": "MIT",
@@ -15,6 +18,7 @@
     "socket.io": "^2.3.0"
   },
   "devDependencies": {
+    "gh-pages": "^2.2.0",
     "nodemon": "^2.0.2"
   }
 }
